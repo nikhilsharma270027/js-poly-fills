@@ -4,15 +4,14 @@ describe("Slice method", () => {
   test("one positive parametr", () => {
     const arr = [1, 2, 3, 4, 5];
     const result = arr.mySlice(10);
-    const expectedResult = [3, 4, 5];
+    const expectedResult = [];
     expect(result).toEqual(expectedResult);
   });
 
   test("two positive parametr", () => {
     const arr = [1, 2, 3, 4, 5];
     const result = arr.mySlice(1, 1);
-    console.log(result);
-    const expectedResult = [3, 4, 5];
+    const expectedResult = [];
     expect(result).toEqual(expectedResult);
   });
 
